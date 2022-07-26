@@ -79,6 +79,33 @@ select:-webkit-autofill:focus {
   margin-right: auto;
 }
 
+.sitenav__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.sitenav__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.sitenav__link {
+  display: block;
+  text-decoration: none;
+}
+
+.site-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: dodgerblue;
+  color: #efefef;
+}
+
+.site-footer__container {
+  display: flex;
+}
+
 
 /* SITE-HEADER */
 .site-header {
