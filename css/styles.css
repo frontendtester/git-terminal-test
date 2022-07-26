@@ -80,6 +80,18 @@ select:-webkit-autofill:focus {
 }
 
 
+/* SITE-HEADER */
+.site-header {
+  background-color: orange;
+  color: #fff;
+}
+
+.site-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
